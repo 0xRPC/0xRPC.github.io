@@ -8,7 +8,7 @@ Fast, Free, and private public RPC endpoints
 
 https://upptime.0xrpc.io
 
-#### About
+#### About (TOS, Privacy Policy)
 
 - We run pruned nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.
 - Using historical methods like `eth_getLogs` or `debug_traceCall` is discouraged as our nodes don't have historic data (Including block receipts, tx receipts, contract events, etc).
