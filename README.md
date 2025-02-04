@@ -65,3 +65,4 @@ https://0xrpc.io/base
 #### Listed on
 
 https://monero.fail
+https://chainlist.org
