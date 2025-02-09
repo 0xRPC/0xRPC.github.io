@@ -8,6 +8,10 @@ Fast, Free, and private public RPC endpoints
 
 https://upptime.0xrpc.io
 
+#### Updates
+
+- Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )
+
 #### About (TOS, Privacy Policy)
 
 - We run pruned nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.
