@@ -46,10 +46,6 @@ https://0xrpc.io/sep
 
 https://0xrpc.io/bnb
 
-- Polygon Mainnet
-
-https://0xrpc.io/pol
-
 - Gnosis Mainnet
 
 https://0xrpc.io/gno
