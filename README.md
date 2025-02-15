@@ -11,6 +11,7 @@ https://upptime.0xrpc.io
 #### Updates
 
 - Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )
+- Added Unichain endpoint ( 25.02.15 )
 
 #### About (TOS, Privacy Policy)
 
@@ -61,6 +62,10 @@ https://0xrpc.io/op
 - Base L2 Mainnet
 
 https://0xrpc.io/base
+
+- Unichain L2 Mainnet
+
+https://0xrpc.io/uni
 
 #### Listed on
 
