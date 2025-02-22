@@ -12,6 +12,7 @@ https://upptime.0xrpc.io
 
 - Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )
 - Added Unichain endpoint ( 25.02.15 )
+- Disabled BNB Chain endpoint as the node seems unstable with volume of queries ( 25.02.21 )
 
 #### About (TOS, Privacy Policy)
 
@@ -42,10 +43,6 @@ https://0xrpc.io/eth/v1 (Beacon)
 - Ethereum Sepolia Testnet
 
 https://0xrpc.io/sep
-
-- BNB Chain Mainnet
-
-https://0xrpc.io/bnb
 
 - Gnosis Mainnet
 
