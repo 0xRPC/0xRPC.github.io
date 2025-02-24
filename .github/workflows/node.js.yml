@@ -30,4 +30,5 @@ jobs:
     - run: |
         npx sitedown . -b . -l layout.html
         npx sitedown privacy -b privacy -l layout.html
+        cp style.css privacy/style.css
     - uses: stefanzweifel/git-auto-commit-action@v4
