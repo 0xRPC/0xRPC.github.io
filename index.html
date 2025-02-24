@@ -27,38 +27,49 @@
 </ul>
 <h4>About (TOS, Privacy Policy)</h4>
 <ul>
-<li>We run pruned nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.</li>
-<li>Using historical methods like <code>eth_getLogs</code> or <code>debug_traceCall</code> is discouraged as our nodes don’t have historic data (Including block receipts, tx receipts, contract events, etc).</li>
-<li>Recommend use case for our RPC endpoints is to serve DApps and Wallets which requires latest state with <code>eth_call</code>, or <code>eth_getBalance</code>.</li>
+<li>We run nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.</li>
+<li>We now run archive nodes for three networks (Ethereum, Sepolia, Gnosis) based on Erigon3 archive nodes.</li>
+<li>All other non-archive full nodes are capable of deriving historic transactions receipts and contract events (like <code>eth_getTransactionReceipt</code> or <code>eth_getLogs</code>)</li>
 <li>Our endpoints are rate limited with less than 10 ~ 20 calls allowed per second so please use it wisely!</li>
-<li>We don’t store any sent data nor any IPs or metadata.</li>
+<li>We don’t store any sent data nor any raw IPs. Refer <a href="/privacy">/privacy</a> for more info.</li>
 <li>No tracking of any kind.</li>
 <li>Open issues on <a href="https://github.com/0xRPC/0xRPC.github.io/issues">https://github.com/0xRPC/0xRPC.github.io/issues</a> for any inquiries / bug reports on RPC.</li>
 </ul>
 <h4>How to use</h4>
 <p><code>$ cast block-number -r https://0xrpc.io/eth</code></p>
+<p>or</p>
+<p><code>$ cast block-number -r wss://0xrpc.io/eth</code></p>
+<p>(All EVM endpoints support websockets)</p>
 <h4>Endpoints</h4>
 <ul>
 <li>Monero Mainnet</li>
 </ul>
 <p><a href="https://xmr.0xrpc.io">https://xmr.0xrpc.io</a></p>
 <ul>
-<li>Ethereum Mainnet</li>
+<li>Ethereum Mainnet (Archive)</li>
 </ul>
 <p><a href="https://0xrpc.io/eth">https://0xrpc.io/eth</a></p>
 <p><a href="https://0xrpc.io/eth/v1">https://0xrpc.io/eth/v1</a> (Beacon)</p>
 <ul>
-<li>Ethereum Sepolia Testnet</li>
+<li>Ethereum Sepolia Testnet (Archive)</li>
 </ul>
 <p><a href="https://0xrpc.io/sep">https://0xrpc.io/sep</a></p>
 <ul>
-<li>Gnosis Mainnet</li>
+<li>Gnosis Mainnet (Archive)</li>
 </ul>
 <p><a href="https://0xrpc.io/gno">https://0xrpc.io/gno</a></p>
 <ul>
 <li>Avalanche Mainnet</li>
 </ul>
 <p><a href="https://0xrpc.io/avax">https://0xrpc.io/avax</a></p>
+<ul>
+<li>Berachain Mainnet</li>
+</ul>
+<p><a href="https://0xrpc.io/bera">https://0xrpc.io/bera</a></p>
+<ul>
+<li>Ethereum Classic Mainnet</li>
+</ul>
+<p><a href="https://0xrpc.io/etc">https://0xrpc.io/etc</a></p>
 <ul>
 <li>Optimism L2 Mainnet</li>
 </ul>
