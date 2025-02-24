@@ -16,11 +16,11 @@ https://upptime.0xrpc.io
 
 #### About (TOS, Privacy Policy)
 
-- We run pruned nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.
-- Using historical methods like `eth_getLogs` or `debug_traceCall` is discouraged as our nodes don't have historic data (Including block receipts, tx receipts, contract events, etc).
-- Recommend use case for our RPC endpoints is to serve DApps and Wallets which requires latest state with `eth_call`, or `eth_getBalance`.
+- We run nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.
+- We now run archive nodes for three networks (Ethereum, Sepolia, Gnosis) based on Erigon3 archive nodes.
+- All other non-archive full nodes are capable of deriving historic transactions receipts and contract events (like `eth_getTransactionReceipt` or `eth_getLogs`)
 - Our endpoints are rate limited with less than 10 ~ 20 calls allowed per second so please use it wisely!
-- We don't store any sent data nor any IPs or metadata.
+- We don't store any sent data nor any raw IPs. Refer [/privacy](/privacy) for more info.
 - No tracking of any kind.
 - Open issues on https://github.com/0xRPC/0xRPC.github.io/issues for any inquiries / bug reports on RPC.
 
@@ -28,29 +28,43 @@ https://upptime.0xrpc.io
 
 `$ cast block-number -r https://0xrpc.io/eth`
 
+or 
+
+`$ cast block-number -r wss://0xrpc.io/eth`
+
+(All EVM endpoints support websockets)
+
 #### Endpoints
 
 - Monero Mainnet
 
 https://xmr.0xrpc.io
 
-- Ethereum Mainnet
+- Ethereum Mainnet (Archive)
 
 https://0xrpc.io/eth
 
 https://0xrpc.io/eth/v1 (Beacon)
 
-- Ethereum Sepolia Testnet
+- Ethereum Sepolia Testnet (Archive)
 
 https://0xrpc.io/sep
 
-- Gnosis Mainnet
+- Gnosis Mainnet (Archive)
 
 https://0xrpc.io/gno
 
 - Avalanche Mainnet
 
 https://0xrpc.io/avax
+
+- Berachain Mainnet
+
+https://0xrpc.io/bera
+
+- Ethereum Classic Mainnet
+
+https://0xrpc.io/etc
 
 - Optimism L2 Mainnet
 
