@@ -66,6 +66,10 @@ https://0xrpc.io/bera
 
 https://0xrpc.io/etc
 
+- MintMe.com Mainnet
+
+https://0xrpc.io/mint
+
 - Optimism L2 Mainnet
 
 https://0xrpc.io/op
