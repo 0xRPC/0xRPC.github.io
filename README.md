@@ -50,6 +50,10 @@ https://0xrpc.io/eth/v1 (Beacon)
 
 https://0xrpc.io/sep
 
+- Ethereum Hoodi Testnet (Archive)
+
+https://0xrpc.io/hoodi
+
 - Gnosis Mainnet (Archive)
 
 https://0xrpc.io/gno
