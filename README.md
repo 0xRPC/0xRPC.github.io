@@ -64,10 +64,6 @@ https://0xrpc.io/gno
 
 https://0xrpc.io/avax
 
-- Berachain Mainnet
-
-https://0xrpc.io/bera
-
 - Ethereum Classic Mainnet
 
 https://0xrpc.io/etc
