@@ -13,6 +13,8 @@ https://upptime.0xrpc.io
 - Disabled polygon endpoint as the node seems unstable with volume of queries ( 25.02.09 )
 - Added Unichain endpoint ( 25.02.15 )
 - Disabled BNB Chain endpoint as the node seems unstable with volume of queries ( 25.02.21 )
+- Added Hoodi Testnet endpoint ( 25.03.20 )
+- Disabled Berachain endpoint as the node is unstable following tip ( 25.04.01 )
 
 #### About (TOS, Privacy Policy)
 
