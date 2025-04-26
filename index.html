@@ -26,11 +26,12 @@
 <li>Disabled BNB Chain endpoint as the node seems unstable with volume of queries ( 25.02.21 )</li>
 <li>Added Hoodi Testnet endpoint ( 25.03.20 )</li>
 <li>Disabled Berachain endpoint as the node is unstable following tip ( 25.04.01 )</li>
+<li>Re-enabled BNB Chain mainnet, archive nodes are switched to pruned nodes to fulfill disk space requirement for long term operation ( 25.04.27 )</li>
 </ul>
 <h4>About (TOS, Privacy Policy)</h4>
 <ul>
 <li>We run nodes of multiple EVM networks (and with Bitcoin, Monero) as a public good.</li>
-<li>We now run archive nodes for three networks (Ethereum, Sepolia, Gnosis) based on Erigon3 archive nodes.</li>
+<li>We now run pruned nodes for three networks (Ethereum, BNB Chain, Sepolia, Hoodi, Gnosis) based on Erigon3 nodes.</li>
 <li>All other non-archive full nodes are capable of deriving historic transactions receipts and contract events (like <code>eth_getTransactionReceipt</code> or <code>eth_getLogs</code>)</li>
 <li>Our endpoints are rate limited with less than 10 ~ 20 calls allowed per second so please use it wisely!</li>
 <li>We don’t store any sent data nor any raw IPs. Refer <a href="/privacy">/privacy</a> for more info.</li>
@@ -48,44 +49,48 @@
 </ul>
 <p><a href="https://xmr.0xrpc.io">https://xmr.0xrpc.io</a></p>
 <ul>
-<li>Ethereum Mainnet (Archive)</li>
+<li>Ethereum Mainnet (Full, 100_000 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/eth">https://0xrpc.io/eth</a></p>
 <p><a href="https://0xrpc.io/eth/v1">https://0xrpc.io/eth/v1</a> (Beacon)</p>
 <ul>
-<li>Ethereum Sepolia Testnet (Archive)</li>
+<li>Ethereum Sepolia Testnet (Pruned, 100_000 blocks only)</li>
 </ul>
 <p><a href="https://0xrpc.io/sep">https://0xrpc.io/sep</a></p>
 <ul>
-<li>Ethereum Hoodi Testnet (Archive)</li>
+<li>Ethereum Hoodi Testnet (Pruned, 100_000 blocks only)</li>
 </ul>
 <p><a href="https://0xrpc.io/hoodi">https://0xrpc.io/hoodi</a></p>
 <ul>
-<li>Gnosis Mainnet (Archive)</li>
+<li>BNB Chain Mainnet (Pruned, 100_000 blocks only)</li>
+</ul>
+<p><a href="https://0xrpc.io/bnb">https://0xrpc.io/bnb</a></p>
+<ul>
+<li>Gnosis Mainnet (Pruned, 100_000 blocks only)</li>
 </ul>
 <p><a href="https://0xrpc.io/gno">https://0xrpc.io/gno</a></p>
 <ul>
-<li>Avalanche Mainnet</li>
+<li>Avalanche Mainnet (Pruned)</li>
 </ul>
 <p><a href="https://0xrpc.io/avax">https://0xrpc.io/avax</a></p>
 <ul>
-<li>Ethereum Classic Mainnet</li>
+<li>Ethereum Classic Mainnet (Full, 128 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/etc">https://0xrpc.io/etc</a></p>
 <ul>
-<li>MintMe.com Mainnet</li>
+<li>MintMe.com Mainnet (Full, 128 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/mint">https://0xrpc.io/mint</a></p>
 <ul>
-<li>Optimism L2 Mainnet</li>
+<li>Optimism L2 Mainnet (Full, 128 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/op">https://0xrpc.io/op</a></p>
 <ul>
-<li>Base L2 Mainnet</li>
+<li>Base L2 Mainnet (Full, 128 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/base">https://0xrpc.io/base</a></p>
 <ul>
-<li>Unichain L2 Mainnet</li>
+<li>Unichain L2 Mainnet (Full, 128 state with all blocks)</li>
 </ul>
 <p><a href="https://0xrpc.io/uni">https://0xrpc.io/uni</a></p>
 <h4>Listed on</h4>
