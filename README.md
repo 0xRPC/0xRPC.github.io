@@ -4,6 +4,12 @@ https://0xrpc.io
 
 Fast, Free, and private public RPC endpoints
 
+#### Donations to
+
+[0x76e6679eE4960B18941504c57a62F87EAaA559fd](https://etherscan.io/address/0x76e6679eE4960B18941504c57a62F87EAaA559fd) aka `0xrpcio.eth`
+
+Accepts ETH, DAI, USDT, USDC, BNB from any EVM chains :)
+
 #### Upptime
 
 https://upptime.0xrpc.io
