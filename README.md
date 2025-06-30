@@ -23,6 +23,7 @@ https://upptime.0xrpc.io
 - Disabled Berachain endpoint as the node is unstable following tip ( 25.04.01 )
 - Re-enabled BNB Chain mainnet, archive nodes are switched to pruned nodes to fulfill disk space requirement for long term operation ( 25.04.27 )
 - Disabled BNB Chain mainnet as the node is draining all available RAMs, use alternative nodes please ( 25.06.03 )
+- Due to hardware failures on server all nodes are down atm, use other nodes until it is recovered in a few days ( 25.06.30 )
 
 #### About (TOS, Privacy Policy)
 
