@@ -1,10 +1,6 @@
 ## 0xRPC Privacy Policy
 
-- We don't collect raw IPs in any kind
-
-- We collect hashed value of IP addresses and particial info of browser info accessed for the last 24 hours (Like if you use chrome or firefox) in order to prevent DDOS or abuse our nodes with volumes of request being made.
-
-- Collected values are removed in less than 24 hours and there is no method to correlate with the full request being made as this excludes request body and only contains info that could be gathered from request headers.
+- We don't collect IPs, hash info, browser info, or any attributes sent by the request.
 
 - So it is impossible to recover or connect of which wallet address made the request from in which IP, etc.
 
