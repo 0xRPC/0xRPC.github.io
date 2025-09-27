@@ -24,6 +24,7 @@ https://upptime.0xrpc.io
 - Re-enabled BNB Chain mainnet, archive nodes are switched to pruned nodes to fulfill disk space requirement for long term operation ( 25.04.27 )
 - Disabled BNB Chain mainnet as the node is draining all available RAMs, use alternative nodes please ( 25.06.03 )
 - Due to hardware failures on server all nodes are down atm, use other nodes until it is recovered in a few days ( 25.06.30 )
+- Due to excessive hardware usage Base node has been discontinued, thank you for using it! ( 25.09.27 )
 
 #### About (TOS, Privacy Policy)
 
@@ -83,10 +84,6 @@ https://0xrpc.io/mint
 - Optimism L2 Mainnet (Full, 128 state with all blocks)
 
 https://0xrpc.io/op
-
-- Base L2 Mainnet (Full, 128 state with all blocks)
-
-https://0xrpc.io/base
 
 - Unichain L2 Mainnet (Full, 128 state with all blocks)
 
