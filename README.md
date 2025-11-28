@@ -35,6 +35,23 @@ https://upptime.0xrpc.io
 - No tracking of any kind.
 - Open issues on https://github.com/0xRPC/0xRPC.github.io/issues for any inquiries / bug reports on RPC.
 
+#### Used by
+
+- [Nethermind](https://github.com/NethermindEth/sedge/blob/6be63bd9761286fc197885f55743dc4e0ce08c37/configs/public_rpcs.go#L42)
+- [Sigma Prime](https://github.com/sigp/siren/blob/ad9fc6eb09816eb7017b69a241c49c17da85026b/utilities/createWagmiConfig.ts#L19)
+- [Swarm](https://github.com/ethersphere/storage-incentives/blob/8000a756a6a9c23d3a2da8dbde803438de23dcc7/hardhat.config.ts#L167)
+- [Api3](https://github.com/api3dao/contracts/blob/282c344fe4cae2982b0cfcfe5d462621d0e5dfa2/CHANGELOG.md?plain=1#L116)
+- [Frax](https://github.com/FraxFinance/fraxtal-node/blob/4681d2a7e1bef6dc9d368594fdfd88258e8fc5f9/.env.hoodi-testnet.SAMPLE#L4)
+- [SubQuery Network](https://github.com/subquery/ethereum-subql-starter/blob/bd2ed434a02f73ebf25f815fde448c39f8f3d36b/Taiko/taiko-hoodi-starter/project.ts#L41)
+- [Helios](https://github.com/helios-network/helios-core/blob/f7380da0afa41b657195ea633f39daa31f131afd/helios-chain/x/hyperion/types/params.go#L253)
+- [HeimLabs](https://github.com/HeimLabs/coinbase-stakemyeth-backend/blob/06e55f417145e2d7b7afd98b58a0a7832c1acd61/config/index.ts#L13)
+- [NilFoundation](https://github.com/NilFoundation/placeholder/blob/ba9ee053b856211556e57073eda71543da872dd6/load_block/load_block.py#L7)
+- [Lanca](https://github.com/lanca-io/webapp/blob/a951bd3ddd42d5bd440e9275fed80a33261bbe5c/src/store/form/CreateFormStore.tsx#L45)
+- [HebeBlock](https://github.com/HebePlatform/etc-classic-ui/blob/2ee3b246fc8a46ed2f2594884514908186024fd0/networkConfig.js#L243)
+- [Gnosis Guild](https://github.com/gnosisguild/zodiac-modifier-roles/blob/a5ae54f7a9dabe4d075de86aacfc5ddc671b39f4/packages/evm/hardhat.config.ts#L120)
+
+... [and more](https://github.com/search?q=0xrpc&type=code)
+
 #### How to use
 
 `$ cast block-number -r https://0xrpc.io/eth`
