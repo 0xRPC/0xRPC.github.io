@@ -94,6 +94,10 @@ https://0xrpc.io/avax
 
 https://0xrpc.io/etc
 
+- ETC Mordor Testnet (Full, 128 state with all blocks)
+
+https://0xrpc.io/mordor
+
 - MintMe.com Mainnet (Full, 128 state with all blocks)
 
 https://0xrpc.io/mint
