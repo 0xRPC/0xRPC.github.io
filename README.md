@@ -68,11 +68,11 @@ or
 
 - Bitcoin Mainnet ( Electrum TCP with SSL )
 
-tcp+ssl://0xrpc.io:50002
+`tcp+ssl://0xrpc.io:50002`
 
-- Litecoin Mainnet
+- Litecoin Mainnet ( Electrum TCP with SSL )
 
-tcp+ssl://0xrpc.io:60002
+`tcp+ssl://0xrpc.io:60002`
 
 - Monero Mainnet
 
