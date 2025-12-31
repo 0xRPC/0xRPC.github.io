@@ -25,6 +25,8 @@ https://upptime.0xrpc.io
 - Disabled BNB Chain mainnet as the node is draining all available RAMs, use alternative nodes please ( 25.06.03 )
 - Due to hardware failures on server all nodes are down atm, use other nodes until it is recovered in a few days ( 25.06.30 )
 - Due to excessive hardware usage Base node has been discontinued, thank you for using it! ( 25.09.27 )
+- Disabled Avalanche, Optimism, and Unichain endpoints due to low usage & saving costs ( 26.01.01 )
+- Zcash, Bitcoin, and Litecoin is now supported ( 26.01.01 )
 
 #### About (TOS, Privacy Policy)
 
@@ -64,9 +66,21 @@ or
 
 #### Endpoints
 
+- Bitcoin Mainnet ( Electrum TCP with SSL )
+
+tcp+ssl://0xrpc.io:50002
+
+- Litecoin Mainnet
+
+tcp+ssl://0xrpc.io:60002
+
 - Monero Mainnet
 
 https://xmr.0xrpc.io
+
+- Zcash Mainnet ( Add this to your ywallet or wallet that supports [lightwalletd](https://github.com/zcash/lightwalletd) )
+
+https://zec.0xrpc.io:443
 
 - Ethereum Mainnet (Full, 128 state with all blocks)
 
@@ -86,10 +100,6 @@ https://0xrpc.io/hoodi
 
 https://0xrpc.io/gno
 
-- Avalanche Mainnet (Full, 128 state)
-
-https://0xrpc.io/avax
-
 - Ethereum Classic Mainnet (Full, 128 state with all blocks)
 
 https://0xrpc.io/etc
@@ -101,14 +111,6 @@ https://0xrpc.io/mordor
 - MintMe.com Mainnet (Full, 128 state with all blocks)
 
 https://0xrpc.io/mint
-
-- Optimism L2 Mainnet (Full, 128 state with all blocks)
-
-https://0xrpc.io/op
-
-- Unichain L2 Mainnet (Full, 128 state with all blocks)
-
-https://0xrpc.io/uni
 
 #### Listed on
 
