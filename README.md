@@ -4,6 +4,10 @@ https://0xrpc.io
 
 Fast, Free, and private public RPC endpoints
 
+#### Notice
+
+We are suffering high usage ( constant 3K ~ 5K requests per second ) and because of our limited cpu capacity your request might be rate limited, please make a donation so that we could invest on our servers.
+
 #### Donations to
 
 [0x76e6679eE4960B18941504c57a62F87EAaA559fd](https://etherscan.io/address/0x76e6679eE4960B18941504c57a62F87EAaA559fd) aka `0xrpcio.eth`
@@ -27,6 +31,7 @@ https://upptime.0xrpc.io
 - Due to excessive hardware usage Base node has been discontinued, thank you for using it! ( 25.09.27 )
 - Disabled Avalanche, Optimism, and Unichain endpoints due to low usage & saving costs ( 26.01.01 )
 - Zcash, Bitcoin, and Litecoin is now supported ( 26.01.01 )
+- Disabled Gnosis Network with node instability ( 26.01.31 )
 
 #### About (TOS, Privacy Policy)
 
@@ -95,10 +100,6 @@ https://0xrpc.io/sep
 - Ethereum Hoodi Testnet (Full, 128 state with all blocks)
 
 https://0xrpc.io/hoodi
-
-- Gnosis Mainnet (Full, 128 state with all blocks)
-
-https://0xrpc.io/gno
 
 - Ethereum Classic Mainnet (Full, 128 state with all blocks)
 
