@@ -32,6 +32,7 @@ https://upptime.0xrpc.io
 - Disabled Avalanche, Optimism, and Unichain endpoints due to low usage & saving costs ( 26.01.01 )
 - Zcash, Bitcoin, and Litecoin is now supported ( 26.01.01 )
 - Disabled Gnosis Network with node instability ( 26.01.31 )
+- Added no-logging sendTransaction blocker for blacklisted accounts for global compliance ( 26.11.01 )
 
 #### About (TOS, Privacy Policy)
 
